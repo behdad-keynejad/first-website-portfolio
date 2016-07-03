@@ -79,7 +79,9 @@ a:hover {
 .landing-page-container {
   background: black;
   overflow: hidden;
+  background-image: url('../images/carol.png');
 }
+
 
 .about-me {
   float: right;
@@ -210,7 +212,9 @@ a {
 
 }
 
-
+.gb-img {
+  width: 550px;
+}
 /*project styles image to the left */
 .project-2 {
   margin-top: 3px;
@@ -285,4 +289,12 @@ a {
 
 .footer-link {
   color: rgba(0, 0, 0, 0.87);
+}
+
+/*project images */
+
+.crm, .seat-yourself {
+  height: 308px;
+  margin-top: 20px;
+  margin-left: 55px;
 }
