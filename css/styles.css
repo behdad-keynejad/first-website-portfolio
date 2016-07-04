@@ -128,10 +128,12 @@ a {
 .about-me-page {
   overflow: hidden;
   background-color: #F3F3F3;
+  padding: 80px 0;
 }
 .about {
   color: rgba(0, 0, 0, 0.87);
   font-size: 28px;
+  font-weight: lighter;
   margin: 8px 0;
 }
 
@@ -154,8 +156,7 @@ a {
 }
 .description {
   font-size: 14px;
-  line-height: 24px;
-  padding-left: 10px;
+  line-height: 28px;
 }
 
 /*project styles - image to the right*/
@@ -178,12 +179,12 @@ a {
 .project {
   margin-top: 3px;
   height: 350px;
-  background: #F3F3F3;
+  background: #FBFBFB;
 }
 
 .project-name {
   color: rgba(0, 0, 0, 0.87);
-  font-weight: light;
+  font-weight: lighter;
   overflow: hidden;
   font-size: 28px;
   margin: 0;
@@ -225,7 +226,7 @@ a {
 .project-name-2 {
   margin: 0;
   color: rgba(0, 0, 0, 0.87);
-  font-weight: light;
+  font-weight: lighter;
   overflow: hidden;
   font-size: 28px;
 }
@@ -293,24 +294,29 @@ a {
 
 /*project images */
 
-.crm, .seat-yourself {
+.crm, .seat-yourself, .rainforest-img {
   height: 308px;
   margin-top: 20px;
   margin-left: 55px;
 
 }
 
-#seatyourself {
-  background-image: url('../images/sy-bg.png');
-}
 
-#seatyourself-description {
-  background-color: rgba(255, 255, 255, 0.54);
-}
 
 #grocerybuddy {
   background-image: url('../images/gb-bg.png');
+
 }
 #grocerybuddy-description {
   background-color: rgba(255, 255, 255, 0.54);
+}
+
+
+#nteractions {
+  background-image: url('../images/n-bg.png');
+}
+
+
+#projects {
+  background-image: url('../images/gr-bg.png');
 }
