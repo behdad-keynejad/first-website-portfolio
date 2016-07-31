@@ -3,161 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Carol Yao</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
   </head>
   <body>
-    <header>
-      <nav class="nav-bar">
-          <h1 class="title"><a class="nav-link" href="#landing"><img class="nav-icon" src="images/carol-yao.png" alt="carol yao cartoon"></a></h1>
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div id="landing" class="landing-page-container">
-      <div class="about-me">
-        <h1 class="name">Carol Yao</h1>
-        <div class="bio">
-        <p>
-          19 .  University of Waterloo  . I like to design and code things . <br> Web Developer . Oyster Enthusiast . Horrible Cook
-        </p>
-        </div>
-        <ul class="social-list">
-          <li class="social-item"><a href="https://www.behance.net/carolyao">Behance</a></li>
-          <li class="social-item"><a href="https://github.com/carol-yao">GitHub</a></li>
-        </ul>
+  <nav class="nav-bar">
+    <ul class="nav-bar-list animated bounce">
+      <li class="nav-bar-link" id="logo"><a id="logo-link" href="index.html">carolyao</a></li>
+      <li class="nav-bar-link"><a href="resume.html">Resume</a></li>
+      <li class="nav-bar-link"><a href="design.html">Design</a></li>
+      <li class="nav-bar-link"><a href="code.html">Code</a></li>
+      <li class="nav-bar-link"><a href="about.html">About</a></li>
+      <li class="nav-bar-link"><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+  <div class="text-intro">
+    <h1 class="title animated fadeInDown">Hi . I'm Carol .</h1>
+    <h2 class="subtitle animated fadeInDown">I like to code and design things .</h2>
+    <div class="social-media-div animated pulse">
+      <h4 class="small-heading">Creep on me .</h4>
+      <div class="social-media-icons">
+        <a href="https://github.com/carol-yao"><img class="sm-icon" id="github-icon" src="assets/github.svg" alt="github icon"></a>
+        <a href="https://www.behance.net/carolyao"><img class="sm-icon" id="behance-icon"src="assets/behance.svg" alt="behance icon"></a>
+        <img class="sm-icon" id="medium-icon"src="assets/medium.svg" alt="medium icon">
+        <a href="https://twitter.com/cyao10"><img class="sm-icon" id="twitter-icon"src="assets/twitter.svg" alt="twitter icon"></a>
       </div>
     </div>
-
-    <div class="about-me-page" id="about-me">
-      <div class="cartoon">
-        <img class="carol-yao" src="images/carol-yao.png" alt="carol in cartoon" />
-      </div>
-      <div class="about-me-description">
-        <h1 class="about">Hello. This is my life story: </h1>
-        <p class="description">I started out in Biomedical Science with plans to pursue Optometry. I never really considered programming in high school, so I decided to try it out for fun by taking a functional programming course, attending my first hackathon and learning basic HTML and CSS from Team Treehouse. I thought I was passionate about Science but I was even more excited about programming! I decided to make the career switch and spent my free time learning as much as I could. I read blogs daily and followed up with tech news. Currently, I am enrolled in Bitmaker's Web Development Immersive course covering all of web and loving every single second of it! These past months have been one hell of a journey, but I'm glad I took the jump.</p>
-      </div>
+    <div class="contact-me animated pulse">
+      <h4 class="small-heading">Contact me .</h4>
+      <a href="mailto:c.y-@hotmail.com"><img class="mail-icon" src="assets/email.svg" alt="email icon" /></a>
     </div>
-
-    <div class="project" id="projects">
-      <div class="project-info" id="groceryrunner-description">
-      <h3 class="project-name">Grocery Runner</h3>
-      <p class="date">JUNE 30 2016</p>
-      <p class="project-description">
-        GroceryRunner is a grocery delivery platform to help free up time from dreaded chores. Users can browse through thousands of items and add them to their cart. Then, they simply checkout and select the date and time they would like their delivery.
-        Past grocery lists are saved and used to track your spendings, savings and breakdown of purchases.
-      </p>
-      <p class="tools"><strong>Tools</strong>: Paper &amp; Pen (Wireframes), Sketch (High Fi Mockups) <br>
-      <a class="project-link" href ="https://www.behance.net/gallery/40263717/Grocery-Runner">(View designs on Behance)</a></p>
-      </div>
-      <!-- <div class="project-image">
-        <img class="gb-img" src="images/gb-img.png" alt="project image">
-      </div> -->
-    </div>
-
-    <div class="project-2" id="nteractions">
-      <!-- <div class="project-image-2" >
-        <img src="http://media02.hongkiat.com/ww-flower-wallpapers/roundflower.jpg" alt="project image">
-      </div> -->
-      <div class="project-info-2" id="nteractions-description">
-      <h3 class="project-name-2">Nspire's Nteractions Blog Redesign</h3>
-      <p class="date">JUNE 24 2016</p>
-      <p class="project-description-2">
-        I am currently a UI/UX Design Associate at Nspire and helping redesign their Nteractions blog. These are some low-fi wireframes for their blog that we plan to use for user testing.
-      </p>
-        <p class="tools"><strong>Tools</strong>: Paper &amp; Pen (Planning), Sketch (Low Fi Wireframes)</p><br><br><br>
-      </div>
-    </div>
-
-        <div class="project" id="seatyourself">
-          <div class="project-info" id="seatyourself-description">
-          <h3 class="project-name">Seat Yourself</h3>
-          <p class="date">JUNE 23 - JUNE 27 2016</p>
-          <p class="project-description" >
-            Seat Yourself is a clone of Open Table - a reservation web app that simplifies the process of booking. This was the first group project I worked on during Bitmaker's Web Development course.
-            There were so many bugs. Bugs everywhere. The bugs were good though, they helped me develop better debugging skills.
-            For this project, I worked on mostly on the backend by setting up the models, business logic and authentication.
-          </p>
-            <p class="tools"><strong>Tools</strong>: Ruby on Rails, Postgres, HTML, CSS <br>
-            <a class="project-link" href ="https://github.com/kroyagis/seatyourself">(View repo on GitHub)</a></p>
-          </div>
-          <div class="project-image">
-            <img class="seat-yourself" src="images/sy-bg-2.png" alt="project image">
-          </div>
-        </div>
-
-        <div class="project-2" id="rainforest">
-          <div class="project-image-2">
-            <img class="rainforest-img" src="images/rf-bg-2.png" alt="project image">
-          </div>
-          <div class="project-info-2" id="rainforest-description">
-
-          <h3 class="project-name-2">Rainforest</h3>
-          <p class="date">JUNE 17</p>
-          <p class="project-description-2" >
-            Rainforest is a simplified clone of Amazon and was my first rails project at Bitmaker. Rails was hard to grasp at first, especially understanding MVC and how it all worked together.
-            I found the concept of sessions and authentication tricky at first, but after some practice, things started to make sense.
-          </p>
-            <p class="tools"><strong>Tools</strong>: Ruby on Rails, Postgres, HTML, CSS , Sketch (Designs)<br>
-            <a  class="project-link" href="https://github.com/carol-yao/rainforest">(View repo on GitHub)</a></p>
-
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="project-info">
-          <h3 class="project-name">Contact Manager</h3>
-          <p class="date">JUNE 9 2016</p>
-          <p class="project-description">
-            Carol's CRM is a basic contact manager web app that lets you add contacts, edit and view them. This project was my first web application at Bitmaker (made with Sinatra - simplified Rails) when we were first introduced
-            to server requests and databases. This was before we learned Rails, and now I'm very grateful I do not have to manually type in all the GET/POST routes.
-          </p>
-            <p class="tools"><strong>Tools</strong>: Ruby, Sinatra, SQLite3 <br>
-            <a class="project-link" href="https://github.com/carol-yao/crm-web-assignment">(View repo on GitHub)</a></p>
-          </div>
-          <div class="project-image">
-            <img class="crm" src="images/crm-2.png" alt="project image">
-          </div>
-        </div>
-
-        <div class="project-2" id="grocerybuddy">
-          <!-- <div class="project-image-2">
-            <img src="http://media02.hongkiat.com/ww-flower-wallpapers/roundflower.jpg" alt="project image">
-          </div> -->
-          <div class="project-info-2" id="grocerybuddy-description">
-          <h3 class="project-name-2">Grocery Buddy</h3>
-          <p class="date">MAY 5 - May 7 2016</p>
-          <p class="project-description-2">
-            Grocery Buddy was designed for the CGI Imagine Challenge held at CUTC (Business &amp; Technology Conference). It was a web application designed to find the cheapest
-            grocery store that supplies all your desired items within a given radius. This was one of my first designs where I learned interaction design and visual design were not the same thing.
-          </p>
-            <p class="tools"><strong>Tools</strong>: Paper &amp; Pen (Planning), Sketch (High Fi Mockups) <br>
-            <a class="project-link" href ="https://www.behance.net/gallery/38204665/Grocery-Buddy-(CGI-Challenge)">(View designs on Behance)</a></p>
-          </div>
-        </div>
-
-      <footer>
-      <p class="copyright">Carol Yao 2016</p>
-      <ul class="social-links">
-        <li class="social">
-          <a class="footer-link" href="https://ca.linkedin.com/in/carolyao">LinkedIn</a>
-        </li>
-        <li class="social">
-          <a class="footer-link" href="https://www.behance.net/carolyao">Behance</a>
-        </li>
-        <li class="social">
-          <a class="footer-link" href="https://github.com/carol-yao">GitHub</a>
-        </li>
-      </ul>
-    </footer>
-
+  </div>
+      <img class="squares" src="assets/squares.svg" alt="background squares">
   </body>
 </html>
-
-
-<!-- project 20/24px light 87%
-date 12 px caps medium  54%
-description 14/16px regular 87%
-tools(bold tools) 14/16 regular 87% -->
