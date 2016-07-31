@@ -1,5 +1,5 @@
 $(function() {
-  $('.blue').on('click', function() {
-    $('.blue').css('background-color', 'orange');
+  $('.code-project-image').on('hover', function() {
+    $(this).css('opacity', 0.2);
   })
 })
