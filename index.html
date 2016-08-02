@@ -1,42 +1,187 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Carol Yao</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="animate.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
-  <body>
-  <nav class="nav-bar">
-    <ul class="nav-bar-list animated bounce">
-      <li class="nav-bar-link" id="logo"><a id="logo-link" href="index.html">carolyao</a></li>
-      <li class="nav-bar-link"><a href="resume.html">Resume</a></li>
-      <li class="nav-bar-link"><a href="design.html">Design</a></li>
-      <li class="nav-bar-link"><a href="code.html">Code</a></li>
-      <li class="nav-bar-link"><a href="about.html">About</a></li>
-      <li class="nav-bar-link"><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
-  <div class="text-intro">
-    <h1 class="title animated fadeInDown">Hi . I'm Carol .</h1>
-    <h2 class="subtitle animated fadeInDown">I like to code and design things .</h2>
-    <div class="social-media-div animated pulse">
-      <h4 class="small-heading">Creep on me .</h4>
-      <div class="social-media-icons">
-        <a href="https://github.com/carol-yao"><img class="sm-icon" id="github-icon" src="assets/github.svg" alt="github icon"></a>
-        <a href="https://www.behance.net/carolyao"><img class="sm-icon" id="behance-icon"src="assets/behance.svg" alt="behance icon"></a>
-        <img class="sm-icon" id="medium-icon"src="assets/medium.svg" alt="medium icon">
-        <a href="https://twitter.com/cyao10"><img class="sm-icon" id="twitter-icon"src="assets/twitter.svg" alt="twitter icon"></a>
-      </div>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CAROL YAO</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-item" href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a class="navbar-item" href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="#">RESUME</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+<!-- hero  -->
+        <div class="row hero">
+            <div class="col-lg-12 text-center introduction">
+                <h1 class="intro">Hi . I'm Carol .</h1>
+                <p class="intro-subheading">I like to code and design things .</p>
+
+                <h4 class="small-heading">Creep on me .</h4>
+                <div class="social-media-icons">
+                  <a href="https://github.com/carol-yao"><img class="sm-icon" id="github-icon" src="assets/github.svg" alt="github icon"></a>
+                  <a href="https://www.behance.net/carolyao"><img class="sm-icon" id="behance-icon"src="assets/behance.svg" alt="behance icon"></a>
+                  <img class="sm-icon" id="medium-icon"src="assets/medium.svg" alt="medium icon">
+                  <a href="https://twitter.com/cyao10"><img class="sm-icon" id="twitter-icon"src="assets/twitter.svg" alt="twitter icon"></a>
+                </div>
+                <div class="contact-me animated pulse">
+                  <h4 class="small-heading">Contact me .</h4>
+                  <a href="mailto:c.y-@hotmail.com"><img class="mail-icon" src="assets/email.svg" alt="email icon" /></a>
+                </div>
+
+            </div>
+        </div>
+
+<!-- about  -->
+        <div class="row about">
+            <h1 class="about-me text-center"> < ABOUT ME > </h1>
+
+            <div class="col-xs-7">
+
+            </div>
+            <div class="col-xs-5">
+                <p class="about-me-description">Hi, my name is Carol.<br><br>I used to study Life Sci but stumbled upon coding in my second year and was absolutely nuts about it. <br><br>That summer, I took a course at Bitmaker, a coding bootcamp for web development. Realizing how much I loved programming, I transfered to Mathematics at the University of Waterloo.<br> <br>I am a fullstack web developer with an interest in UI/UX design by day and an oyster connoisseur by night.</p>
+            </div>
+
+        </div>
+<!-- projects  -->
+        <div class="row projects project-1">
+            <div class="col-md-7">
+
+            </div>
+            <div class="col-md-5 project-information">
+              <h1 class="project-title" id="remindr-logo">Remindr</h1>
+              <p class="project-details">Summer 2016 | Web Application</p>
+              <h1 class="project-description-title"> < description ></h1>
+              <p class="project-description">
+                Remindr is a web application that helps you keep in touch with family, friends and your network. Keep track of your last interaction
+                through our simple to use interface and receive reminders when it's time to send them a message.
+              </p>
+              <h1 class="project-tools-title"> < tools > </h1>
+              <p class="project-tools">
+                Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
+                Twitter API // Gmail API // Twilio
+              </p>
+              <button type="button" name="button">View Live</button>
+            </div>
+        </div>
+
+        <div class="row projects project-2">
+            <div class="col-md-7">
+
+            </div>
+            <div class="col-md-5 project-information">
+              <h1 class="project-title" id="remindr-logo">Remindr</h1>
+              <p class="project-details">Summer 2016 | Web Application</p>
+              <h1 class="project-description-title"> < description ></h1>
+              <p class="project-description">
+                Remindr is a web application that helps you keep in touch with family, friends and your network. Keep track of your last interaction
+                through our simple to use interface and receive reminders when it's time to send them a message.
+              </p>
+              <h1 class="project-tools-title"> < tools > </h1>
+              <p class="project-tools">
+                Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
+                Twitter API // Gmail API // Twilio
+              </p>
+              <button type="button" name="button">View Live</button>
+            </div>
+        </div>
+
+        <div class="row projects project-1">
+            <div class="col-md-7">
+
+            </div>
+            <div class="col-md-5 project-information">
+              <h1 class="project-title" id="remindr-logo">Remindr</h1>
+              <p class="project-details">Summer 2016 | Web Application</p>
+              <h1 class="project-description-title"> < description ></h1>
+              <p class="project-description">
+                Remindr is a web application that helps you keep in touch with family, friends and your network. Keep track of your last interaction
+                through our simple to use interface and receive reminders when it's time to send them a message.
+              </p>
+              <h1 class="project-tools-title"> < tools > </h1>
+              <p class="project-tools">
+                Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
+                Twitter API // Gmail API // Twilio
+              </p>
+              <button type="button" name="button">View Live</button>
+            </div>
+        </div>
+
+
+        <div class="row footer">
+            <div class="col-lg-12 text-center">
+                <ul class="list-unstyled">
+                    <a class="footer-link" href="https://github.com/carol-yao"><li class="social-media-link">GitHub</li></a>
+                    <a class="footer-link" href="https://www.behance.net/carolyao"><li class="social-media-link">Behance</li></a>
+                    <a class="footer-link" href="https://www.behance.net/carolyao"><li class="social-media-link">Medium</li></a>
+                    <a class="footer-link" href="https://twitter.com/cyao10"><li class="social-media-link">Twitter</li></a>
+                    <li class="copyright">Copyright &copy; Carol Yao 2016</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
     </div>
-    <div class="contact-me animated pulse">
-      <h4 class="small-heading">Contact me .</h4>
-      <a href="mailto:c.y-@hotmail.com"><img class="mail-icon" src="assets/email.svg" alt="email icon" /></a>
-    </div>
-  </div>
-      <img class="squares" src="assets/squares.svg" alt="background squares">
-  </body>
+
+
+
+
+    <script src="js/jquery.js"></script>
+
+  <script src="js/scripts.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>

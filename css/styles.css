@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #002331;
+}
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.navbar-nav {
+  float: right;
+}
+.navbar {
+  background-color: #E12B56;
+  border: none;
+  box-shadow: 0 2px 1px black;
+  position: absolute;
+}
+
+/*nav bar links */
+.navbar-inverse .navbar-text {
+  color: #F0F1F3;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #F0F1F3;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 2px solid #F0F1F3;
+}
+
+/*logo */
+
+.navbar-inverse .navbar-brand {
+  color: #F0F1F3;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #002331;
+  background-color: transparent;
+}
+
+
+/*responsive button */
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: rgba(256,256,256,0.15)
+}
+
+
+/*hero */
+
+
+.hero {
+  background-image: url(../assets/wendy.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+
+.introduction {
+  padding: 144px 0;
+}
+.intro {
+  font-size: 32px;
+  font-weight: medium;
+  letter-spacing: 2.22px;
+}
+.intro-subheading {
+  font-size: 24px;
+  font-weight: medium;
+  letter-spacing: 1.67px;
+  margin: 16px 0 64px 0;
+}
+
+.small-heading {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.sm-icon {
+  margin: 0 8px;
+}
+
+/* ABOUT */
+.about {
+  background-color: #E2EFF6;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 100vh;
+  font-size: 16px;
+  padding: 0 88px;
+}
+
+.about-me {
+  font-size: 20px;
+  margin-top: 56px;
+}
+
+.about-me-description {
+  margin-top: 100px;
+}
+
+/* PROJECTS */
+
+/* all project stylings*/
+.projects {
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 100vh;
+  color: #F0F1F3;
+}
+
+.project-information {
+  margin-top: 112px;
+  padding-right: 36px;
+
+}
+.project-title {
+  font-size: 48px;
+}
+
+.project-details {
+  font-size: 16px;
+  margin-left: 8px;
+  opacity: 0.7;
+}
+.project-description-title {
+  font-size: 20px;
+  margin-left: 8px;
+  letter-spacing: 2px;
+}
+.project-description {
+  font-size: 14px;
+  margin-left: 8px;
+  letter-spacing: 1.4px;
+}
+.project-tools-title {
+  font-size: 20px;
+  margin-left: 8px;
+  letter-spacing: 2px;
+}
+.project-tools {
+  font-size: 14px;
+  margin-left: 8px;
+  letter-spacing: 1.4px;
+}
+
+button {
+  background-color: transparent;
+  color: #F0F1F3;
+  border: 1px solid #F0F1F3;
+  border-radius: 2px;
+  letter-spacing: 1.4px;
+  font-size: 16px;
+  padding: 8px 36px;
+  margin: 16px 0 0 8px ;
+}
+
+button:hover {
+  background-color: #F0F1F3;
+  border: 2px solid #F0F1F3;
+  color: #E12B56;
+}
+/* individual project styling */
+.project-1 {
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/1.png);
+}
+
+#remindr-logo {
+  font-family: 'Lobster', 'Roboto', sans-serif;
+  letter-spacing: 4px;
+}
+
+
+.project-2 {
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(../assets/2.png);
+}
+
+
+
+
+
+
+
+/*footer */
+
+.social-media-link {
+  display: inline-block;
+  color: #FAFAFA;
+  float: left;
+  margin: 16px;
+}
+
+.copyright {
+  display: inline-block;
+  color: #FAFAFA;
+  float: right;
+  margin: 16px;
+}
+
+.social-media-link:hover {
+  font-weight: bold;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #FAFAFA;
+}
+/* media queries*/
+
+/* small device */
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    float: none;
+    display: inline-block;
+  }
+  .row {
+    height: 400px;
+  }
+}
+
+@media (max-width: 665px) {
+
+  .footer {
+    display: none;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    float: none;
+    display: inline-block;
+  }
+}
+
+/* IPAD */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+}
+
+/* LAPTOPS */
+@media (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 96%;
+  }
+}
