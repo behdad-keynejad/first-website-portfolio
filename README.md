@@ -1,6 +1,5 @@
-Hi I'm Carol .
+Hi, I'm Carol .
 
-Feel free to check out my website :) 
+This is my personal website ! 
 
-https://carol-yao.github.io/
-
+Check it out https://carol-yao.github.io/
