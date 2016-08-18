@@ -28,11 +28,10 @@ body {
   float: right;
 }
 .navbar {
-  background-color: #F0F1F3;
+  background-color: transparent;
   border: none;
-  box-shadow: 0 2px 1px gray;
   position: absolute;
-  padding: 0 16px 0 20px;
+  padding: 16px 24px 0 24px;
 }
 
 /*nav bar links */
@@ -40,22 +39,23 @@ body {
   color: #002331;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #002331;
+  color: white;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: #FFE9CB;
+  font-weight: bolder;
   background-color: transparent;
-  border-bottom: 2px solid #002331;
 }
 
 /*logo */
 
 .navbar-inverse .navbar-brand {
-  color: #002331;
+  color: white;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
+  color: #FFE9CB;
   font-weight: bolder;
   background-color: transparent;
 }
@@ -75,7 +75,7 @@ body {
 
 
 .hero {
-  background-image: url(../assets/background.png);
+  background-image: url(../assets/background.svg);
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
@@ -90,34 +90,38 @@ body {
   padding: 144px 0;
 }
 .intro {
-  font-size: 32px;
-  font-weight: medium;
   letter-spacing: 2.22px;
-  margin: 88px 0 0 0;
+  font-size: 64px;
+  margin: 76px 0 0 0;
+  color: rgba(256,256,256,0.9);
+  font-family: 'Lobster';
 }
 .intro-subheading {
-  font-size: 24px;
-  font-weight: medium;
-  letter-spacing: 1.67px;
+  letter-spacing: 2.22px;
+  font-size: 36px;
+  color: rgba(256,256,256,0.9);
+  font-family: 'Lobster';
   margin: 24px 0 48px 0;
 }
 
 .small-heading {
+  color: rgba(256,256,256,0.9);
   margin-top: 32px;
   margin-bottom: 16px;
 }
 
 i {
   margin: 0 8px;
-  color: rgba(0,0,0,0.6);
+  color: white;
+
 }
 
 i:hover {
-  color: white;
+  color: #FB5F8E;
 }
 /* ABOUT */
 .about {
-  background-color: #E2EFF6;
+  background-color: rgba(252,232,116,0.5);
   margin: 0 auto;
   max-width: 1900px;
   height: 100vh;
@@ -201,7 +205,7 @@ button:hover {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/1.png);
+  background-image: url(../assets/4.png);
 }
 
 #remindr-logo {
@@ -215,7 +219,7 @@ button:hover {
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/2.png);
+  background-image: url(../assets/3.png);
 }
 
 .project-3 {
@@ -223,7 +227,7 @@ button:hover {
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/3.png);
+  background-image: url(../assets/1.png);
 }
 
 .project-4 {
@@ -231,7 +235,7 @@ button:hover {
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/4.png);
+  background-image: url(../assets/2.png);
 }
 
 
