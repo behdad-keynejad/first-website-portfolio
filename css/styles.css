@@ -227,7 +227,7 @@ button:hover {
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/3.png);
+  background-image: url(../assets/4.png);
 }
 
 .project-3 {
@@ -238,13 +238,13 @@ button:hover {
   background-image: url(../assets/1.png);
 }
 
-.project-4 {
+/*.project-4 {
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/4.png);
-}
+  background-image: url(../assets/3.png);
+}*/
 
 
 
@@ -256,16 +256,19 @@ button:hover {
 
 /*footer */
 
+.footer {
+  background-color: #FB5F8E;
+}
 .social-media-link {
   display: inline-block;
-  color: #002331;
+  color: white;
   float: left;
   margin: 16px;
 }
 
 .copyright {
   display: inline-block;
-  color: #002331;
+  color: white;
   float: right;
   margin: 16px;
 }
@@ -273,7 +276,7 @@ button:hover {
 .social-media-link:hover {
   font-weight: bold;
   padding-bottom: 4px;
-  border-bottom: 1px solid #002331;
+  border-bottom: 1px solid white;
 }
 /* media queries*/
 
