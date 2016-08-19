@@ -44,10 +44,10 @@
                         <a class="navbar-item" href="#">HOME</a>
                     </li>
                     <li>
-                        <a class="navbar-item" href="#">ABOUT</a>
+                        <a class="navbar-item" href="#about">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#">PROJECTS</a>
+                        <a href="#projects">PROJECTS</a>
                     </li>
                     <li>
                         <a href="#">RESUME</a>
@@ -84,11 +84,11 @@
         </div>
 
 <!-- about  -->
-        <div class="row about">
+        <div class="row about"id="about">
             <h1 class="about-me text-center"> < LIFE STORY > </h1>
 
-            <div class="col-xs-7">
-
+            <div class="col-xs-7 profile-container">
+              <img class="profile-pic" src="assets/girl.svg" alt="">
             </div>
             <div class="col-xs-5">
                 <p class="about-me-description">Once thought I'd inspect eyeballs for a living -- but that meant I had to get off my laptop. Obviously, I couldn't just leave my laptop. <br><br> Naturally, I decided to change my career. Here I am. <br> <br> I am a fullstack web developer with extensive knowledge in <strong>RoR</strong> and <strong>JavaScript</strong>. <br><br> From my childhood background and training in a 4 year intensive art program, I picked up skills in <strong>UI/UX Design</strong> - designs on Behance. <br><br> Maybe I'll be a unicorn. <br><br> But my real job title, is oyster connoisseur.</p>
@@ -96,7 +96,7 @@
 
         </div>
 <!-- projects  -->
-        <div class="row projects project-1">
+        <div class="row projects project-1" id="projects">
             <div class="col-md-7">
 
             </div>
@@ -122,19 +122,18 @@
 
             </div>
             <div class="col-md-5 project-information">
-              <h1 class="project-title" id="remindr-logo">Remindr</h1>
-              <p class="project-details">Summer 2016 | Web Application</p>
+              <h1 class="project-title" id="remindr-logo">Hourglass</h1>
+              <p class="project-details">Summer 2016 | Chrome Extension</p>
               <h1 class="project-description-title"> < description ></h1>
               <p class="project-description">
-                Remindr is a web application that helps you keep in touch with family, friends and your network. Keep track of your last interaction
-                through our simple to use interface and receive reminders when it's time to send them a message.
+                Hourglass estimates the amount of time it will take you to read a page before you begin reading.
+                As a previous Science student, this extension would've come in handy for reading scholarly articles.
               </p>
               <h1 class="project-tools-title"> < tools > </h1>
               <p class="project-tools">
-                Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
-                Twitter API // Gmail API // Twilio
+                JavaScript // jQuery // HTML // CSS
               </p>
-              <button type="button" name="button">View Live</button>
+              <button type="button" name="button">View in Chrome Store</button>
             </div>
         </div>
 
@@ -143,19 +142,19 @@
 
             </div>
             <div class="col-md-5 project-information">
-              <h1 class="project-title" id="remindr-logo">Remindr</h1>
-              <p class="project-details">Summer 2016 | Web Application</p>
+              <h1 class="project-title" id="remindr-logo">404</h1>
+              <p class="project-details">Summer 2016 | Chrome Extension</p>
               <h1 class="project-description-title"> < description ></h1>
               <p class="project-description">
-                Remindr is a web application that helps you keep in touch with family, friends and your network. Keep track of your last interaction
-                through our simple to use interface and receive reminders when it's time to send them a message.
+                404 is a chrome extension I created to pull pranks on friends. It replaces any page a user is on with
+                404 not found page from Chrome.
+
               </p>
               <h1 class="project-tools-title"> < tools > </h1>
               <p class="project-tools">
-                Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
-                Twitter API // Gmail API // Twilio
+                JavaScript // jQuery // HTML // CSS
               </p>
-              <button type="button" name="button">View Live</button>
+              <button type="button" name="button">View Live in Chrome Store</button>
             </div>
         </div>
 
@@ -177,7 +176,7 @@
                 Ruby // Rails // JavaScript // jQuery // HTML // CSS // Bootstrap // Bourbon <br><br>
                 Twitter API // Gmail API // Twilio
               </p>
-              <button type="button" name="button">View Live</button>
+              <a href="https://remindr-me.herokuapp.com/"><button type="button" name="button">View Live</button></a>
             </div>
         </div>
 

@@ -1,8 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #F0F1F3;
 }
 body {
@@ -43,9 +43,11 @@ body {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #FFE9CB;
   font-weight: bolder;
   background-color: transparent;
+  padding-bottom: 8px;
+  border-bottom: 1px solid white;
+  font-size: 15px;
 }
 
 /*logo */
@@ -55,9 +57,8 @@ body {
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #FFE9CB;
   font-weight: bolder;
-  background-color: transparent;
+  font-size: 19px;
 }
 
 
@@ -121,7 +122,8 @@ i:hover {
 }
 /* ABOUT */
 .about {
-  background-color: rgba(252,232,116,0.5);
+  background-color: ;
+  background: linear-gradient(180deg, #E493ED,#7AA0ED);
   margin: 0 auto;
   max-width: 1900px;
   height: 100vh;
@@ -129,13 +131,19 @@ i:hover {
   padding: 0 76px;
 }
 
+.profile-pic {
+  width: 200px;
+  margin: 120px 0 0 150px;
+}
 .about-me {
   font-size: 20px;
   margin-top: 56px;
+  color: white;
 }
 
 .about-me-description {
   margin-top: 88px;
+  color: white;
 }
 
 /* PROJECTS */
@@ -205,7 +213,7 @@ button:hover {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../assets/4.png);
+  background-image: url(../assets/2.png);
 }
 
 #remindr-logo {
@@ -235,7 +243,7 @@ button:hover {
   background-size: auto;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/2.png);
+  background-image: url(../assets/4.png);
 }
 
 
@@ -293,6 +301,19 @@ button:hover {
   .navbar-nav {
     float: none;
     display: inline-block;
+  }
+
+  .navbar {
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    position: absolute;
+    padding: 16px 24px 0 24px;
+  }
+
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    border-bottom: none;
+    color: rgba(0,0,0,0.8);
   }
 }
 
